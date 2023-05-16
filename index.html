@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css">
+  <title>
+  HTML Documentation
+    </title>
+    </head>
+  <body>
+    <nav id="navbar">
+      <header class="nav"><h2>Learn About HTML</h2></header>
+      <ul>
+       <li> <a class="nav-link" href="#HTML_Introduction">HTML Introduction</a> </li>
+      <li> <a class="nav-link" href="#Creating_HTML_Elements">Creating HTML Elements</a> </li>
+      <li> <a class="nav-link" href="#Adding_Attributes">Adding Attributes</a> </li>         
+      <li> <a class="nav-link" href="#Building_HTML_Documents">Building HTML Documents</a> </li>
+      <li> <a class="nav-link" href="#What_Goes_In_The_HEAD">What Goes In The HEAD</a> </li>
+     <li> <a class="nav-link" href="#Let's_Learn_A_Little_About_BODY">Let's Learn A Little About BODY</a> </li>
+      <li> <a class="nav-link" href="#The_Div_Element">The Div Element</a> </li>
+     <li> <a class="nav-link" href="#The_Footer">The Footer</a> </li>
+      <li> <a class="nav-link" href="#Reference">Reference</a> </li>
+</ul>
+      </nav>
+    <main id="main-doc">
+      <section class="main-section" id="HTML_Introduction">
+        <header>
+          <h1>HTML Introduction</h1>
+          </header>
+          <p>HTML is a markup language used to tell browsers how to structure webpages. It is made up of elements, which can be utilized to make content appear a certain way, as well as help arrange content within a document. You can also help style this content and give it flair with CSS, as well as further tweak the positioning of it.</p>
+        </section>
+        <section class="main-section" id="Creating_HTML_Elements">
+          <header>
+           <h1>Creating HTML Elements</h1>
+            </header>
+            <p>First off, what is a HTML element made up of?
+              Here are the following ingredients to make a simple HTML element that we need:
+              <ul>
+                <li><b>Ingredient 1:</b> Opening Tag </li>
+                <li><b>Ingredient 2:</b> Content</li>
+                <li><b>Ingredient 3:</b> Closing Tag</li>
+              </ul>
+            </p>
+            <p>How would we write that in code? Here is a example utilizing the paragraph tag to create a paragraph element:</p>
+            <code class="purple">
+              <span class="orange"><</span><span class="orange">p</span><span class="orange">></span>Spring is a great time to start gardening.<span class="orange"><</span><span class="orange">/p</span><span class="orange">></span>
+              </code>
+              <p>Now as you can see the first part containing the < p > is the opening tag. The second part that is the sentence will appear on your document as text simply as: <br><br>Spring is a great time to start gardening.</br></br> The third part containing the < / p > is our closing tag.</p>
+<p> Simple definitions to remember about the parts that make up an element:</p>
+  <ul>
+  <li><b><i class="orange">Opening Tag</b></i>--is the beginning of our element, the starting point to create it.</li>
+  <li><b><i class="purple">Content</b></i>--is what will usually display on our document or it is what is enclosed within the element in this case the sentence within our paragraph element</li>
+  <li><b><i class="orange">Closing Tag</b></i>--is the ending of our element, the completing point to creating it and without these tags it can create some bizarre results or even cause syntax errors.</li>
+  </ul>
+<p>Hopefully, this little bit of information can help you begin to create your own elements. In the next section we will talk about adding attributes, this should be fun!
+          </section>
+          <section class="main-section" id="Adding_Attributes">
+            <header>
+              <h1>Adding Attributes</h1>
+              </header>
+              <p>We can give elements these cool things called attributes. You maybe asking yourself. what is a attribute? Well, an attribute contains information about a element, it won't appear in the content so don't worry about that, its part of the coolness of one.
+                <br><br>What does an attribute need:<br></br></p>
+              <ul>
+                <li>Definitely needs a space between it and the <span class="green">element name</span>. When elements have more than one attribute they will need to be separated by spaces.</li>
+                <li>Of course most importantly, it will need the <span class="red">attribute name</span> followed by a equal sign.</li>
+                <li>Lastly, it will need a <span class="blue">attribute value</span> which needs to be wrapped within quotation marks.</li>
+                </ul> 
+                <p>You maybe wondering how should an attribute being added to a element should look, well here we will demonstrate exactly just that utilizing our paragraph from the element demonstration:
+                </p>
+                <code><span class="green"><</span><span class="green">p <span class="red">class</span>=<span class="blue">"springtime"</span></span><span class="green">></span><span class="black">Spring is a great time to start gardening.</span><span class="green"><</span><span class="green">/p</span><span class="green">></span> </code>
+                <p>As you can see in red we added the attribute <span class="red">class</span> which we can use to identify the element and target it for styling through CSS. In blue after the equal sign in quotations we have the <span class="blue">attribute value</span> which can be what ever you wish to classify the element as. Now that you have a basic understanding of this lets move on to talking about building HTML Documents a bit, you can find more attributes in the reference link below as well as more about them. Look at this small taste of attributes as the seasoning to your curosity to learn more about coding in HTML, as well as utilizing them in your code. </p>
+            </section>
+            <section class="main-section" id="Building_HTML_Documents">
+              <header>
+               <h1>Building HTML Documents</h1>
+                </header>
+                <p>All righty then! Let's dive into the nitty gritty of creating HTML Documents!!!! What's an HTML document you may ask yourself well its what we see when viewing a webpage in the window, it also gives it structure, basic format, and if you add a dash of CSS to it you can make it beautiful!(But we arent going to talk about CSS here you can find out more about it in the reference link below.)</p>
+                <p>We are going to utilize multiple elements to create a HTML document! The power of multiple steps coming together to build something amazing.Look at the lovely example below of all the cool code we typed to demostrate this:</p>
+              <code class="grey">&lt;!DOCTYPE <span class="red">html</span>&gt;<br>
+              <span class="green">&nbsp;&lt;html <span class="red">lang</span>=<span class="blue">"en"</span>&gt;</span>
+              <br><span class="green">&nbsp;&nbsp;&lt;head&gt;</span><br>
+              <span class="green">&nbsp;&nbsp;&nbsp;&lt;meta&nbsp;<span class="red">charset</span>=<span class="blue">"utf-8"</span>/&gt;</span><br>
+              <span class="green">&nbsp;&nbsp;&nbsp;&lt;title&gt;<span class="black">Spring Time</span>&lt;/title&gt;</span><br>
+              <span class="green">&nbsp;&nbsp;&lt;/head&gt;</span><br>
+              <span class="green">&nbsp;&nbsp;&nbsp;&lt;body&gt;</span><br>
+              <span class="green">&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<span class="black">Spring is a great time to start gardening.</span>&lt;/p&gt;</span><br>
+              <span class="green">&nbsp;&nbsp;&nbsp&lt;/body&gt;</span><br>
+              <span class="green">&lt;/html&gt;</span><br><br></code>
+              <p>So we just built a document titled "Spring Time" including the previous paragraph element we have been using. Okay, great now lets talk a little bit about the elements that make up the document as well as some of the attributes.</p><br>
+              <ul>
+                <li><b><i>!DocType html</b></i>--Basically it is something we add to make everything work, it's from the antiquity era of early HTML just make sure you include it when starting your build.</li>
+                <li><b><i>html</b></i>--This is another super important element that some refer to as the <i>"root element"</i> you will wrap this element's tags around the content of your document following the DocType above.</li>
+                <li><b><i>head</b></i>--This element is a container for all the things you want to include in your HTML page but that you don't want to show up or be a visible part of the content that is displayed. Things that can go in this element are keywords, page description that usually appears in the search results, CSS to style content, character declarations, and much more. We will talk more about this in the next section within <i>"What Goes In The Head"</i> section of this page.</li>
+                <li><b><i>meta charset="utf-8"</b></i>--The meta element represents metadata and it cannot be represented by any other HTML meta elements such as base, title, link, script, or style. The charset sets up the character set for you UTF-8 is utilized most commonly and it includes most characters from majority of the written languages around the world.</li>
+                <li><b><i>title</b></i>--This element creates a title for the page that displays in the browser tab where the page has loaded. It also is used as a description for the page when saving it to bookmarks.</li>
+                <li><b><i>body</b></i>--This element contains all the content for your page that will be displayed. Things like for example, text, images, videos, games, playable audio tracks, and ect.</li><br>
+                <p>So now that we have learned a bit more information about the elements and their attributes that go into creating a HTML document let's continue on diving further by talking more about the head element next.</p>
+                
+              </section>
+              <section class="main-section" id="What_Goes_In_The_HEAD">
+                <header>
+                  <h1>What Goes In The HEAD</h1>
+                  </header>
+                  <p>Many important things go into the head of a HTML document.None of the awesome content within the head section displays in the web browser when it loads. The items within it are basically backstage working their magic. Anyways, some of the things contained with in a head element are title, links to CSS, links to custom favicons, and other metadata. </p>
+                  <p>We have talked about the title element previously and it's use to create a title for the page that displays in the browser tab and also creates a name for the page  when it is bookmarked. But  let's talk about the difference between title and h1(header 1 element), some times these elements can be confused because they can be considered both the title of the page. But they are not the same the h1 element displays on top of the document within the browser and the title is only displayed on the browser tab. The h1 element is also located within the body element and not the head element.</p>
+                  <p>Let's talk about the metadata element that is also located in the head, we briefly touched on it in the section above. Alot of different elements placed into head can be considered metadata and there are many different types of metadata but we are going to only bring up some of the more common ones. Previously we mentioned the charset attribute within a metadata element so we don't really need to touch on it again. Let's instead talk about some things within the meta element below:</p>
+                  <ul>
+                    <li><b><i>name</b></i>--it specifies what type of element it is and what type of information it contains.</li>
+                    <li><b><i>content</b></i>--specifies the acutal meta content</li>
+                    </ul>
+                    <p>Adding these two things within the metaelement can help define who the author of the page is and the type of content on the page making it appear higher in the results for better search engine optimization. Here is an example of code of how we can utilize these two attributes within our meta element:</p>
+                    <code class="green">&lt;meta&nbsp;<span class="red">name</span>=<span class="blue">"author"</span>&nbsp;<span class="red">content</span>=<span class="blue">"Sonny Oak"</span>/&gt;<br>
+                    &lt;meta<br>
+                    &nbsp;&nbsp;<span class="red">name</span>=<span class="blue">"description"</span><br>
+                    &nbsp;&nbsp;<span class="red">content</span>=<span class="blue">"Sonny, is Professor Oak's long lost son who is a professional gardener. He also, has collected many different plant type pokemon over the years."</span>/&gt;
+                    </code>
+<p>As demonstrated above that is just a little bit about meta data. We aren't going to touch onto CSS but it can be linked into the head, if you want to utilize it to style your document.</p>
+                  </section>
+                  <section class="main-section" id="Let's_Learn_A_Little_About_BODY">
+                    <header>
+                      <h1>Let's Learn A Little About BODY</h1></header>
+                      Now, that we have a talked about the head, let's talk about the body, which is where our content that will be displayed in the document/web browser.The body contains paragraphs, headings, hyperlinks, tables, navigation, and ect. The body element can only be used once in a document.
+                </section>
+              <section class="main-section" id="The_Div_Element">
+                <header>
+                            <h1>The Div Element</h1>
+                            </header>
+                            <p>The div element is just a generic container for the content within the body of the element. It is utilized for styling the content with CSS. It can be used to group content when adding a class or id attribute, or it can change the language of the section of a document when using the lang attribute.This element should only be used when the article element and the nav element are not appropriate.</p>
+
+                            <p>Here's an example of a div element with a id attribute added:</p>
+                            <code class="green">
+&lt;div <span class="red">id</span>=<span class="blue">"springbox"</span>&gt;<br>
+&nbsp;&lt;p&gt;<span class="black">Spring is a great time for gardening.</span>&lt;/p&gt;<br>
+&lt;/div&gt
+                            </code>
+
+
+<p>Utilizing the div element as you see here can allow you to set your selector to the id springbox and style it in CSS.</p>
+                            </section>
+                          <section class="main-section" id="The_Footer">
+                            <header>
+                              <h1>The Footer</h1>
+                              </header>
+                            <p> The footer element usually goes towards the end of a document and it can contain a few different things let's list them here:</p>
+
+                              <ul>
+                                <li>authorship information</li>
+                                <li>copyright information</li>
+                                <li>contact information</li>
+                                <li>sitemap</li>
+                                <li>back to top links</li>
+                                <li>related documents
+</li>
+                                </ul>
+
+                                <p> As you can see the footer can contain several different items, there can also be multiple footers within a document. Footers are located after the body element and within the html tags.
+                              </section>
+                          <section class="main-section" id="Reference">
+                            <header>
+                              <h1>Reference</h1>
+                              </header>
+                              <p>All Documentation Was Resourced From This Website:<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">Mozilla.org</a></p>
+                              <p>Link To Learn More About CSS:<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">Here</a></p>
+                              </section>
+                          
+
+
+      </main>
+    </body>
+  </html>
