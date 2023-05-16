@@ -1,0 +1,103 @@
+@media print{
+nav {
+  display: none;
+}
+}
+body{
+  font-family: Helvetica, Arial;
+background-color: E2DFDF;
+  color: #04072C;
+  font-size: 23px;
+  text-align: left;
+  margin: auto;
+  
+}
+#navbar{
+  border: solid;
+  text-align: left;
+  font-size: 17px;
+  top-margin: 20px; 
+  background: #04072C;
+  color: white;
+  
+  
+}
+h2{
+  font-size: 45px;
+  text-shadow: 1px 1px 0px  #E5D10C, 5px 5px 25px #E5D10C;
+  text-align: center;
+  margin-block: 0px;
+}
+.nav-link{
+color: #E5D10C;
+text-align: justify;
+font-size: 18px;
+
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+  list-style: none;
+}
+nav li{
+  display: block;
+  float: left;
+  margin-left: 25px;
+  padding-bottom: 15px;
+}
+nav li a:hover{
+  color: white;
+  cursor: grab;
+}
+
+nav li a:active{
+  color: blue;
+  cursor: grabbing;
+}
+nav li a:visited{
+  color: red;
+}
+
+main{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.purple{
+  color: purple;
+}
+.black{
+  color: black;
+}
+.orange{
+  color: darkorange;
+}
+
+
+.green{
+  color: darkgreen; 
+}
+.red{
+  color: red;
+}
+.blue{
+  color: blue;
+}
+.grey{
+  color: grey;
+}
+code{
+  display: inline-block;
+  background-color: rgba(126,204,255,0.2);
+  border: solid rgba(255,255,255,0.5);
+border-radius: 10px 10px 10px 10px;
+}
+p a{
+  color:rgba(37,236,176,0.6);
+  background-color: rgba(0,0,0,0.8);
+  border: solid rgba(0,0,0,0.3);
+  border-radius: 10px 10px 10px 10px; 
+}
+p a:hover{
+  color: yellow;
+  cursor: pointer;
+}
